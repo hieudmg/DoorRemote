@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Door Remote</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="lost_connection_prompt">Lost connection with device. Do you want to try reconnecting?</string>
+    <string name="connecting_to">Connecting to</string>
+    <string name="cancel">Cancel</string>
+    <string name="connection_canceled">Connection canceled</string>
+    <string name="authenticating">Authenticating…</string>
+    <string name="key_authenticated_devices">AUTHENTICATED_DEVICES</string>
+    <string name="key_last_connected_device">LAST_CONNECTED_DEVICE</string>
+    <string name="connection_success">Connection success</string>
+    <string name="connection_failed_try_again">Connection failed, please check the device and try again</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="image">image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission_request_message">This app need to access location service in order to scan for nearby bluetooth device. Please grant the permission.</string>
+    <string name="scan_for_devices">Scan for devices</string>
+</resources>

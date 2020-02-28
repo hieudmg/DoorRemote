@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Segment">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:background">@drawable/segment_bg</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="Layout">
+        <item name="android:background">@color/colorLayout</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="ToggleImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="TextStatus">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="TextStatusLabel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:background">@drawable/segment_bg_top_half</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Footer">
+        <item name="android:background">@drawable/segment_bg_bottom_half</item>
+        <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <!--<item name="android:padding">5dp</item>-->
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="Content">
+        <item name="android:background">@drawable/segment_bg_mid_half</item>
+        <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="TransparentButton" parent="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:backgroundTint">@color/colorTransparent</item>
+        <item name="android:foregroundTint">@color/colorPrimary</item>
+    </style>
+</resources>
